@@ -10,3 +10,6 @@ Long term scheduler is a program in operating system which will decide which pro
 Operating system is called as resource manager (any device we use can be called as a resource s ram is a resource and os is allocating programs to ram )
 If there are two process in ram and they are competing to access RAM , In that case function in os will decide whcih process will access first . This functionality of OS is called as short term Scheduler.
 
+Whenever we switch on computer the os program will be copied to RAM . the space where the os code is placed as called as OS code space .othe space is called user place where we keep prorgrams .
+
+Input/Output Device : every IO device has a memory buffer where the binary data will go and fro there it will be transferred to RAM and from there it will move to CPU registers and there the operation will be performed (eg calculation will be done in this way usig ALU) the result will be overridden in any of the register and from there it wil move to CPU and cpu will move it to Ouput Register (eg monitor )
