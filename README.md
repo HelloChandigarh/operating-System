@@ -13,3 +13,22 @@ If there are two process in ram and they are competing to access RAM , In that c
 Whenever we switch on computer the os program will be copied to RAM . the space where the os code is placed as called as OS code space .othe space is called user place where we keep prorgrams .
 
 Input/Output Device : every IO device has a memory buffer where the binary data will go and fro there it will be transferred to RAM and from there it will move to CPU registers and there the operation will be performed (eg calculation will be done in this way usig ALU) the result will be overridden in any of the register and from there it wil move to CPU and cpu will move it to Ouput Register (eg monitor )
+
+
+PROGRAM will be either executed by CPU or it is performing some IO event or it is waiting for both the operation to happen .
+
+Turn around time : waiting time(it just waited inside cpu) + burst time(execution time) + I/o time (i/o time)
+(time taken by program to stay in CPU)
+
+
+Program Vs Process
+in HDD we have googlechrome.exe it is called as program .the running instance of googlecrome is called as process.
+States of program:
+New state -> Ready State(waiting for CPU or I/o Operation) -> Running state ( being executing by CPU)->I/O state (if performing I/O event, its also called blocked state)-> Terminated state(after execution , removed from ram ) ->Suspend ready state-> Suspend wait state .
+
+Degree of Multiprogramming (maximum number of programs that can be stayed inside ram )
+
+
+
+
+
