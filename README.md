@@ -28,6 +28,28 @@ New state -> Ready State(waiting for CPU or I/o Operation) -> Running state ( be
 
 Degree of Multiprogramming (maximum number of programs that can be stayed inside ram )
 
+Types of Operating system : 
+
+Degree of multiprogramming is always 1 . Both I/O and CPU will not be working simultaneously for a single process . they can work at the same time for different process . so if one process is runnig we are wasting the resources .So the efficiency is low .
+
+CPU Efficiencey =userful time of CPU /total time of CPU .
+out of total time for how much time cpu is getting consumed .
+
+Multiprogramming operating system : more than one program in the ram .it improve efficiency .(if one of the process is undergoing I/O , i can use the other process to consume CPU .It is called concurrent processing .
+
+MultiProcessing OS : we can have more than one CPU .It will improve the efficiency . It is called parallel processing .
+we have multiprocessing computers these days .
+
+
+Passive Entity: A program creating the processes is called passive entity .
+Active Entity : the process which is which being used actually is called active entity 
+
+Process Control block :Apart from the program , process  has stack ( in case the program function call each other ) , It has heap(dynamic memory allocation, allocating memory at runtime ) and also memory for global or static variables .
+
+
+
+
+
 
 
 
