@@ -85,7 +85,9 @@ OS will only consider those process which are in ready state and the process whi
 
 SJF Algorithms (Shortest Job FIrst Algorithm ): the process with the shortest burst time will be given priority and its non preemptive algorithm.
 
+Schedule length = Completion time of last process-arrival time of first process 
 
+Throughput = no of process/schedule length 
 
 
 
