@@ -63,7 +63,23 @@ Long term scheduler : the part of os code which decides which process from hardd
 Short term scheduler : once the prgrams are inside the ram , which process need to execute first is decided by shortterm sch
 Medium term scheduler : it decides which process need to be swapped in and swapped out on the basis of priority (in case there is a process inside harddisk having higher priority then it need to put inside ram but ram is full . hence we will do a swap where one process will move from ram to harddisk (swapped out ) and one process will move from hdd to ram (swapped in ).
 
+we save the context of a process in case we halt some process in between . and we start soem other high priority process. it is called context swiching .
 
+VARIOUS TIMES OF PROCESS:
+point in time : a particular time 
+duration in time : difference between two point in time.
+Arrival time : point in time when a program arrives in the ram 
+Burst time : Execution time(duration in time for which the process is executed ( it doesn't include waiting time))
+Completion time : point in time 
+turn around time : Completion time-arrival time (duration of time for which the process is inside the ram )= burst+I/O+waiting time
+Waiting time :duration in time for which the process waited while other process were running 
+Response time :
+I/O time:duration in time spent in I/O 
+
+Scheduling Algorithms :
+Preemtive scheduling algorithms and non preemtive scheduling algorithms 
+
+Non-preemptive algorithms (even the process with more priority comes inside RAM , the process in execution will not go into wait state where in preemtive algorithms , the process in execution with less priority will go into wait state .
 
 
 
