@@ -44,8 +44,10 @@ we have multiprocessing computers these days .
 Passive Entity: A program creating the processes is called passive entity .
 Active Entity : the process which is which being used actually is called active entity 
 
-Process Control block :Apart from the program , process  has stack ( in case the program function call each other ) , It has heap(dynamic memory allocation, allocating memory at runtime ) and also memory for global or static variables .
+Process Control block :Apart from the program , process  has stack ( in case the program function call each other ) , It has heap(dynamic memory allocation, allocating memory at runtime ) and also memory for global or static variables (in case the program has static and global variables ).
 
+
+Process ID:Process ID ,program counter(
 
 
 
