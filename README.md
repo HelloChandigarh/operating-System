@@ -81,6 +81,8 @@ Preemtive scheduling algorithms and non preemtive scheduling algorithms
 
 Non-preemptive algorithms (even the process with more priority comes inside RAM , the process in execution will not go into wait state where in preemtive algorithms , the process in execution with less priority will go into wait state .
 
+OS will only consider those process which are in ready state and the process which are in I/O state won't be considered by scheduling algorithms and that's why the process in I/O state is considered as Blocked state .
+
 
 
 
