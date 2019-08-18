@@ -55,6 +55,16 @@ list of open files : list of open files should be remembered . the reading of th
 list of open devices 
 protection : os makes sure that one process should not access space area of another process . that is called protection 
 
+Context of process :
+pcb and attributes of a process is called context of process .
+
+Types of scheduler :
+Long term scheduler : the part of os code which decides which process from harddisk should be moved to ram .
+Short term scheduler : once the prgrams are inside the ram , which process need to execute first is decided by shortterm sch
+Medium term scheduler : it decides which process need to be swapped in and swapped out on the basis of priority (in case there is a process inside harddisk having higher priority then it need to put inside ram but ram is full . hence we will do a swap where one process will move from ram to harddisk (swapped out ) and one process will move from hdd to ram (swapped in ).
+
+
+
 
 
 
