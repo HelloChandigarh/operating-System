@@ -83,6 +83,7 @@ Non-preemptive algorithms (even the process with more priority comes inside RAM 
 
 OS will only consider those process which are in ready state and the process which are in I/O state won't be considered by scheduling algorithms and that's why the process in I/O state is considered as Blocked state .
 
+SJF Algorithms (Shortest Job FIrst Algorithm ): the process with the shortest burst time will be given priority and its non preemptive algorithm.
 
 
 
