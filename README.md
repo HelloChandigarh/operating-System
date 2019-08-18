@@ -89,6 +89,12 @@ Schedule length = Completion time of last process-arrival time of first process
 
 Throughput = no of process/schedule length 
 
+SRTF( shortest remaining time first Algorithm ): it is same as sjf its just that it is preemptive algorithms . it means a process is executing and a new process come in which has burst time less than the remaining time of the running algorithm then that process will get priority .
+After all the process are arrived to ram , it will behave as SJF .
 
+Response Time :
+Waiting time of the process until it gets the CPU for the first time .
 
+In Any non preemptive algorithm ,Response time= waiting time 
+For non-preemtive algorithm , it is not true
 
