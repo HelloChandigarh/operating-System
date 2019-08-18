@@ -53,7 +53,7 @@ General purpose register : every process will . have register values which need 
 Priority 
 list of open files : list of open files should be remembered . the reading of the left out files after rescheduling should be done 
 list of open devices 
-protection
+protection : os makes sure that one process should not access space area of another process . that is called protection 
 
 
 
