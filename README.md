@@ -46,9 +46,14 @@ Active Entity : the process which is which being used actually is called active 
 
 Process Control block :Apart from the program , process  has stack ( in case the program function call each other ) , It has heap(dynamic memory allocation, allocating memory at runtime ) and also memory for global or static variables (in case the program has static and global variables ).
 
-
-Process ID:Process ID ,program counter(
-
+Properties/Attributes of process :
+Process ID:Process ID(unique number of every process) ,
+program counter(p1,p2,p3 are three processes in ram,os code will decide which one wil be picked by cpu to execute . that os code is called scheduler . there are multiple algorithms to do that . One is first come first serve  like p1 come to ram first than p2 so it will be executed first . there is another one which is called shortest job for scheduling algorithms (one will shortest execution time will be executed first )if we terminated the process in between , to execute some higher priority . progam counter is the line of the program where we terminated . so that again moving to the program which got terminated , from that line we need this .we store the progra counter inside a registers .
+General purpose register : every process will . have register values which need to be remembered (incase we reschedule some terminated process ) so it will be kept in gerneral purpose registers.
+Priority 
+list of open files : list of open files should be remembered . the reading of the left out files after rescheduling should be done 
+list of open devices 
+protection
 
 
 
