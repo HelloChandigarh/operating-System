@@ -98,3 +98,7 @@ Waiting time of the process until it gets the CPU for the first time .
 In Any non preemptive algorithm ,Response time= waiting time 
 For non-preemtive algorithm , it is not true
 
+
+FIFO scheduling algorithms : the process which has least arrival time will be scheduled first .
+
+
